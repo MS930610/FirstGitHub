@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="login-form" class="hidden">
+        <input id="name" type="text" placeholder="what is u r name??" maxlength="15" required>
+        <!-- <input id="pw" type="password" placeholder="what is u r pw??" maxlength="15" required> -->
+        <button id="login" class="hidden">Log in</button>
+    </form>
+    <form action="">
+        <h1 id="h1" class="hidden"></h1>
+        <button id="logout" class="hidden">Log out</button>
+    </form>
+    <div style="border:1px solid black;text-align: center;">
+        <form id="todolistForm">
+            <input type="text" placeholder="할 일을 적어넣어주세요">
+        </form>
+        <ul id="todolist"></ul>
+    </div>
+    <ul id="list"></ul>
+    <div id="Time"></div>
+    <div id="wTemp"></div>
+    <div id="wName"></div>
+    <div id="weather"></div>
+    <div id="명언"></div>
+    <script src="app.js"></script>
+    <script src="clock.js"></script>
+    <script src="geo.js"></script>
+    <script src="quotes.js"></script>
+    <script src="back.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
