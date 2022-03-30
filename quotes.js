@@ -27,5 +27,4 @@ function PaintText(){
     quoteText.innerText = quotes[indexNum].quote   
 }
 PaintText()
-// setInterval(PaintText,5000);
 
